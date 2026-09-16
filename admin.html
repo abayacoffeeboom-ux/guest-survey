@@ -1,0 +1,8 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Аналитика опроса</title><link rel="stylesheet" href="admin.css"></head><body><main>
+<header><h1>Аналитика опроса гостей</h1><a href="/">Открыть опрос</a></header>
+<section class="grid" id="kpis"></section><section class="grid2"><div class="panel"><h2>Отношение к полноценному обслуживанию</h2><div id="service"></div></div><div class="panel"><h2>Отношение к +10%</h2><div id="price"></div></div></section>
+<section class="panel"><h2>Основные преимущества</h2><div id="benefits"></div><h2>Основные опасения</h2><div id="concerns"></div></section>
+<section class="panel"><h2>QR-код для гостей</h2><img src="/api/qr" class="qr"><p>Распечатайте этот QR-код и разместите на столах, стойке или чеках.</p><button onclick="downloadQR()">Скачать QR-код</button></section>
+<section class="panel"><h2>Последние ответы</h2><div id="rows"></div></section>
+</main><script src="admin.js"></script></body></html>
